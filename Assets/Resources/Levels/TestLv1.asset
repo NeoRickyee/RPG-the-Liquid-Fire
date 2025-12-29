@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 72056eaaf08a9a84c8e82b918e563182, type: 3}
-  m_Name: BoardCreator
+  m_Name: TestLv1
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   tiles:
   - {x: 1, y: 4, z: 5}

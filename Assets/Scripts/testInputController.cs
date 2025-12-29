@@ -21,7 +21,7 @@ public class testInputController : MonoBehaviour
         InputController.moveEvent -= OnMoveEvent;
         InputController.fireEvent -= OnFireEvent;
     }
-    
+
     void Start()
     {
         
