@@ -638,6 +638,8 @@ MonoBehaviour:
   pos:
     x: 0
     y: 0
+  heroPrefab: {fileID: 1964865881706475288, guid: b69fb2393a3345b41942d315e8eada93, type: 3}
+  currentUnit: {fileID: 0}
 --- !u!4 &2006901435
 Transform:
   m_ObjectHideFlags: 0

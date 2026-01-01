@@ -42,5 +42,14 @@ public class FlyMovement : Movement
         );
         while (tweener != null)
             yield return null;
+        
+        // Land
+        duration = (jumper.position.y - tile.center.y) * 0.5f;
+        tweener = jumper.MoveToLocal(
+            new Vector3(0, 0, 0), duration,
+            EasingEquations.EaseInOutQuad
+        );
+        while (tweener != null)
+            yield return null;
     }
 }

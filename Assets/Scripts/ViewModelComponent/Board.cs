@@ -100,7 +100,7 @@ public class Board : MonoBehaviour
     {
         for (int i = tiles.Count - 1; i >= 0; --i)
         {
-            tiles[i].GetComponent<Renderer>().material.SetColor("_Color", selectedTileColor);
+            tiles[i].GetComponent<Renderer>().material.SetColor("_BaseColor", selectedTileColor);
         }
     }
     // de-highlight tiles
@@ -108,7 +108,7 @@ public class Board : MonoBehaviour
     {
         for (int i = tiles.Count - 1; i >= 0; --i)
         {
-            tiles[i].GetComponent<Renderer>().material.SetColor("_Color", defaultTileColor);
+            tiles[i].GetComponent<Renderer>().material.SetColor("_BaseColor", defaultTileColor);
         }
     }
 
