@@ -5,6 +5,11 @@ public class Tile : MonoBehaviour
 {
     public const float stepHeight = 0.25f;
     
+    // Pther features existing on this Tile. Like a tree
+    public GameObject content;
+    [HideInInspector] public Tile prev;
+    [HideInInspector] public int distance;
+    
     public Point pos;
     public int height;
 
