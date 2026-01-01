@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4897641615626516511}
+  - component: {fileID: -4321117229525632885}
   m_Layer: 0
   m_Name: Hero
   m_TagString: Untagged
@@ -32,6 +33,19 @@ Transform:
   - {fileID: 6640304076376769723}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-4321117229525632885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964865881706475288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15aa980ca14a51643a316d4a64e55604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Unit
+  dir: 0
 --- !u!1 &2712844328334598024
 GameObject:
   m_ObjectHideFlags: 0
